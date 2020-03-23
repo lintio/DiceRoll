@@ -46,6 +46,7 @@ while menuSelect != 'q':
         print('Enter 0 to go back')
         menuSelect = input('-> ')
         if menuSelect == '0':
+            os.system('cls' if os.name == 'nt' else 'clear')
             continue
         elif menuSelect == '1':
             diceType = 'D4'
