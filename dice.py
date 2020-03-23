@@ -15,7 +15,7 @@ while menuSelect != '0':
         print('Select the dice type to roll')
         print('1 - D4')
         print('2 - D6')
-        print('3 - D9')
+        print('3 - D8')
         print('4 - D10')
         print('5 - D12')
         print('6 - D20')
