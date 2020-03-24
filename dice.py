@@ -51,30 +51,19 @@ while menuSelect != 'q':
         elif menuSelect == '1':
             diceType = 'D4'
             dieMax = 4
-            os.system('cls' if os.name == 'nt' else 'clear')
-            continue
         elif menuSelect == '2':
             diceType = 'D6'
             dieMax = 6
-            os.system('cls' if os.name == 'nt' else 'clear')
-            continue
         elif menuSelect == '3':
             diceType = 'D8'
             dieMax = 8
-            os.system('cls' if os.name == 'nt' else 'clear')
-            continue
         elif menuSelect == '4':
             diceType = 'D10'
             dieMax = 10
-            os.system('cls' if os.name == 'nt' else 'clear')
-            continue
         elif menuSelect == '5':
             diceType = 'D12'
             dieMax = 12
-            os.system('cls' if os.name == 'nt' else 'clear')
-            continue
         elif menuSelect == '6':
             diceType = 'D20'
             dieMax = 20
-            os.system('cls' if os.name == 'nt' else 'clear')
-            continue
+        os.system('cls' if os.name == 'nt' else 'clear')
